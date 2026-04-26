@@ -1,0 +1,5 @@
+a,b,c,d=list(map(int,input().split()))
+row=min(a,c-a)
+column=min(b,d-b)
+answer=min(row,column)
+print(answer)
